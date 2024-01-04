@@ -1,8 +1,0 @@
-D:\лабы\ООП\10lab\10lab\10lab\bin\Debug\10lab.exe.config
-D:\лабы\ООП\10lab\10lab\10lab\bin\Debug\10lab.exe
-D:\лабы\ООП\10lab\10lab\10lab\bin\Debug\10lab.pdb
-D:\лабы\ООП\10lab\10lab\10lab\obj\Debug\10lab.csproj.AssemblyReference.cache
-D:\лабы\ООП\10lab\10lab\10lab\obj\Debug\10lab.csproj.SuggestedBindingRedirects.cache
-D:\лабы\ООП\10lab\10lab\10lab\obj\Debug\10lab.csproj.CoreCompileInputs.cache
-D:\лабы\ООП\10lab\10lab\10lab\obj\Debug\10lab.exe
-D:\лабы\ООП\10lab\10lab\10lab\obj\Debug\10lab.pdb
