@@ -1,8 +1,0 @@
-D:\лабы\ООП\7lab\7lab\7lab\obj\Debug\7lab.csproj.AssemblyReference.cache
-D:\лабы\ООП\7lab\7lab\7lab\obj\Debug\7lab.csproj.SuggestedBindingRedirects.cache
-D:\лабы\ООП\7lab\7lab\7lab\obj\Debug\7lab.csproj.CoreCompileInputs.cache
-D:\лабы\ООП\7lab\7lab\7lab\bin\Debug\7lab.exe.config
-D:\лабы\ООП\7lab\7lab\7lab\bin\Debug\7lab.exe
-D:\лабы\ООП\7lab\7lab\7lab\bin\Debug\7lab.pdb
-D:\лабы\ООП\7lab\7lab\7lab\obj\Debug\7lab.exe
-D:\лабы\ООП\7lab\7lab\7lab\obj\Debug\7lab.pdb
