@@ -1,0 +1,7 @@
+D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\lab12.exe.config
+D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\lab12.exe
+D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\lab12.pdb
+D:\лабы\ООП\12lab\lab12\lab12\obj\Debug\lab12.csproj.AssemblyReference.cache
+D:\лабы\ООП\12lab\lab12\lab12\obj\Debug\lab12.csproj.CoreCompileInputs.cache
+D:\лабы\ООП\12lab\lab12\lab12\obj\Debug\lab12.exe
+D:\лабы\ООП\12lab\lab12\lab12\obj\Debug\lab12.pdb

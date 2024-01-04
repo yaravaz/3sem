@@ -1,0 +1,21 @@
+16.11.2023 10:26:57 Найдено свободное место на диске C и D С:\ и D:\
+16.11.2023 10:26:57 Найдена информация о дисках C и D С:\ и D:\
+16.11.2023 10:26:57 Найдена информация о файловой системе - -
+16.11.2023 10:26:57 Найден полный путь forsearch.txt D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\forsearch.txt
+16.11.2023 10:26:57 Найдена информация о файле forsearch.txt forsearch.txt
+16.11.2023 10:26:57 Найдена информация о дате создания и изменения файла forsearch.txt forsearch.txt
+16.11.2023 10:26:57 Найдено количество файлов каталога Directory Directory
+16.11.2023 10:26:57 Найдено время создания каталога Directory Directory
+16.11.2023 10:26:57 Найдено количество папок в каталоге Directory Directory
+16.11.2023 10:26:57 Найден родительский каталог Directory Directory
+16.11.2023 10:26:57 Получен список файлов и каталогов D:\ D:\
+16.11.2023 10:26:57 Создание папки VYRInspect D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\
+16.11.2023 10:26:57 Создание текстового файла vyrdirinfo.txt D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect
+16.11.2023 10:26:57 Добавить информацию в файл vyrdirinfo.txt D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\vyrdirinfo.txt
+16.11.2023 10:26:57 Создание копии файла newfile.txt D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\newfile.txt
+16.11.2023 10:26:57 Удаление файла vyrdirinfo.txt D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\vyrdirinfo.txt
+16.11.2023 10:26:57 Создание папки VYRFiles D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\
+16.11.2023 10:26:57 Скопированы файлы с разширением - D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRFiles
+16.11.2023 10:26:57 Переместили папку VYRFiles D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\VYRFiles
+16.11.2023 10:26:58 Архивация ZipedDir.zip D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\ZipedDir.zip
+16.11.2023 10:26:58 Разархивация D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\ZipedDir.zip D:\лабы\ООП\12lab\lab12\lab12\bin\Debug\VYRInspect\
