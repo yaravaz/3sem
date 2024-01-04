@@ -1,0 +1,8 @@
+D:\лабы\ООП\11lab\lab11\lab11\bin\Debug\lab11.exe.config
+D:\лабы\ООП\11lab\lab11\lab11\bin\Debug\lab11.exe
+D:\лабы\ООП\11lab\lab11\lab11\bin\Debug\lab11.pdb
+D:\лабы\ООП\11lab\lab11\lab11\obj\Debug\lab11.csproj.AssemblyReference.cache
+D:\лабы\ООП\11lab\lab11\lab11\obj\Debug\lab11.csproj.SuggestedBindingRedirects.cache
+D:\лабы\ООП\11lab\lab11\lab11\obj\Debug\lab11.csproj.CoreCompileInputs.cache
+D:\лабы\ООП\11lab\lab11\lab11\obj\Debug\lab11.exe
+D:\лабы\ООП\11lab\lab11\lab11\obj\Debug\lab11.pdb

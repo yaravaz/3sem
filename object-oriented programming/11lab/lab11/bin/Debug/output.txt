@@ -1,0 +1,105 @@
+lab11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Есть публичный конструктор
+System.String get_FIO() 
+
+Void set_FIO(System.String) 
+
+Int32 get_Experience() 
+
+Void set_Experience(Int32) 
+
+Int32 get_Salary() 
+
+Void set_Salary(Int32) 
+
+System.String get_Field() 
+
+Void set_Field(System.String) 
+
+Void Promote() 
+
+Void Fine() 
+
+Void Info() 
+
+Void GetHash() 
+
+System.String ToString() 
+
+Void AddElement(lab11.Worker) 
+
+Void Delete(Int32) 
+
+Void Find(Int32) 
+
+Void Print() 
+
+Void ConcatText(System.String, System.String) 
+
+Boolean Equals(System.Object) 
+
+Int32 GetHashCode() 
+
+System.Type GetType() 
+
+
+
+Поля класса:
+items Count Id 
+
+Свойства класса:
+FIO Experience Salary Field 
+
+IMyInterface`1
+
+Void set_FIO
+Void set_Field
+Void ConcatText
+lab11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Есть публичный конструктор
+System.String get_Surname() 
+
+Void set_Surname(System.String) 
+
+System.String get_Name() 
+
+Void set_Name(System.String) 
+
+Int32 get_CardNumber() 
+
+Void set_CardNumber(Int32) 
+
+Double get_Balance() 
+
+Void set_Balance(Double) 
+
+Void InputInformation() 
+
+System.String ToString() 
+
+Void PrintName(lab11.Customer) 
+
+System.String GetInfoAboutClass() 
+
+Void Print() 
+
+Boolean Equals(System.Object) 
+
+Int32 GetHashCode() 
+
+System.Type GetType() 
+
+
+
+Поля класса:
+Count about 
+
+Свойства класса:
+Surname Name CardNumber Balance 
+
+
+
+Void set_Surname
+Void set_Name
