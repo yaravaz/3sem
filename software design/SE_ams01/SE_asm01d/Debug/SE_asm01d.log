@@ -1,0 +1,21 @@
+﻿Сборка начата 21.11.2023 14:37:00.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\КПО\19_лаба\SE_ams01\SE_asm01d\SE_asm01d.vcxproj" в узле 3 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\SE_asm01d.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\Lib.exe /OUT:"D:\лабы\КПО\19_лаба\SE_ams01\Debug\SE_asm01d.lib" /NOLOGO /MACHINE:X86 Debug\SE_asm01d.obj
+         SE_asm01d.vcxproj -> D:\лабы\КПО\19_лаба\SE_ams01\Debug\SE_asm01d.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01d.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01d.tlog\SE_asm01d.lastbuildstate".
+     1>Сборка проекта "D:\лабы\КПО\19_лаба\SE_ams01\SE_asm01d\SE_asm01d.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.14
