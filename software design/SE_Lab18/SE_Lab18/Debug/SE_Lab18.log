@@ -1,0 +1,71 @@
+﻿Сборка начата 17.12.2023 13:59:48.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\SE_Lab18.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\SE_Lab18.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp FST.cpp GRB.cpp In.cpp IT.cpp LexemaAnalysis.cpp Log.cpp LT.cpp MFST.cpp Out.cpp Parm.cpp SE_Lab18.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\FST.cpp(67,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GRB.cpp
+         In.cpp
+         IT.cpp
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(77,26): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(96,26): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         LexemaAnalysis.cpp
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4305: =: усечение из "int" в "char"
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4309: =: усечение константного значения
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\MFST.cpp(236,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Out.cpp
+         Parm.cpp
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\Parm.cpp(9,11): warning C4101: wst: неиспользованная локальная переменная
+         SE_Lab18.cpp
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\SE_Lab18.cpp(69,3): warning C4102: Log: неиспользованная метка
+         Создание кода...
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(156): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(188): warning C4172: возвращение адреса локальной или временной переменной : buffer
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\лабы\КПО\18_лаба\SE_Lab18\Debug\SE_Lab18.exe" /INCREMENTAL /ILK:"Debug\SE_Lab18.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\лабы\КПО\18_лаба\SE_Lab18\Debug\SE_Lab18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\лабы\КПО\18_лаба\SE_Lab18\Debug\SE_Lab18.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\LexemaAnalysis.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Out.obj
+         Debug\Parm.obj
+         Debug\SE_Lab18.obj
+         SE_Lab18.vcxproj -> D:\лабы\КПО\18_лаба\SE_Lab18\Debug\SE_Lab18.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab18.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab18.tlog\SE_Lab18.lastbuildstate".
+     1>Сборка проекта "D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\SE_Lab18.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\SE_Lab18.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\FST.cpp(67,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(77,26): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(96,26): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4305: =: усечение из "int" в "char"
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\LexemaAnalysis.cpp(83,17): warning C4309: =: усечение константного значения
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\MFST.cpp(236,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\Parm.cpp(9,11): warning C4101: wst: неиспользованная локальная переменная
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\SE_Lab18.cpp(69,3): warning C4102: Log: неиспользованная метка
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\LT.cpp(23): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(156): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\лабы\КПО\18_лаба\SE_Lab18\SE_Lab18\IT.cpp(188): warning C4172: возвращение адреса локальной или временной переменной : buffer
+
+    Предупреждений: 11
+    Ошибок: 0
+
+Прошло времени 00:00:06.00
