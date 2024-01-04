@@ -1,8 +1,0 @@
-D:\лабы\ООП\3lab\lab3\lab3\obj\Debug\lab3.csproj.AssemblyReference.cache
-D:\лабы\ООП\3lab\lab3\lab3\obj\Debug\lab3.csproj.SuggestedBindingRedirects.cache
-D:\лабы\ООП\3lab\lab3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
-D:\лабы\ООП\3lab\lab3\lab3\bin\Debug\lab3.exe.config
-D:\лабы\ООП\3lab\lab3\lab3\bin\Debug\lab3.exe
-D:\лабы\ООП\3lab\lab3\lab3\bin\Debug\lab3.pdb
-D:\лабы\ООП\3lab\lab3\lab3\obj\Debug\lab3.exe
-D:\лабы\ООП\3lab\lab3\lab3\obj\Debug\lab3.pdb
