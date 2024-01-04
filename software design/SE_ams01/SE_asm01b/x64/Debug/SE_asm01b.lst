@@ -1,0 +1,116 @@
+Microsoft (R) Macro Assembler (x64) Version 14.34.31933.0   11/14/23 17:12:33
+SE_asm01b.asm						     Page 1 - 1
+
+
+				.586P
+SE_asm01b.asm(1) : error A2008:syntax error : .
+				.MODEL flat, STDCALL
+SE_asm01b.asm(2) : error A2008:syntax error : .
+				includelib kernel32.lib
+
+				ExitProcess			PROTO: DWORD
+				SetConsoleTitleA	PROTO: DWORD
+				GetStdHandle		PROTO: DWORD
+				WriteConsoleA		PROTO: DWORD, : DWORD, : DWORD, : DWORD, : DWORD
+				getmin				PROTO: DWORD, : DWORD
+				getmax				PROTO: DWORD, : DWORD
+
+				.STACK 4096
+SE_asm01b.asm(12) : error A2008:syntax error : .
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+ 00000000 00000001			myDoubles	dd	1, 2, 3, 4, 5, 6, 7, 8, 5, 3
+	   00000002
+	   00000003
+	   00000004
+	   00000005
+	   00000006
+	   00000007
+	   00000008
+	   00000005
+	   00000003
+
+ 00000028 C0 F1 F1 E5 EC		head			db "Ассемблер", 0
+	   E1 EB E5 F0 00
+ 00000032 67 65 74 6D 69		text			db "getmin + getmax = ", 0
+	   6E 20 2B 20 67
+	   65 74 6D 61 78
+	   20 3D 20 00
+ 00000045 00000000			sum				dd 0
+ 00000049 00000000			consolehandle	dd 0h
+
+ 00000000			.CODE
+ 00000000			main PROC
+ 00000000			START:
+
+					invoke SetConsoleTitleA, offset head
+SE_asm01b.asm(28) : error A2008:syntax error : SetConsoleTitleA
+
+ 00000000  6A F5			push -11
+ 00000002  E8 00000000 E		call GetStdHandle
+ 00000007  89 05 00000049 R		mov consolehandle, eax
+
+					invoke getmin, offset myDoubles, lengthof myDoubles
+SE_asm01b.asm(34) : error A2008:syntax error : getmin
+
+ 0000000D  89 05 00000045 R		mov sum, eax
+
+					invoke getmax, offset myDoubles, lengthof myDoubles
+SE_asm01b.asm(38) : error A2008:syntax error : getmax
+
+ 00000013  01 05 00000045 R		add sum, eax
+ 00000019  83 05 00000045 R		add sum, 30h
+	   30
+ 00000020  8B 05 00000045 R		mov eax, sum
+
+ 00000026  88 05 00000044 R		mov text + 18, al
+
+					invoke WriteConsoleA, consolehandle, offset text, sizeof text, 0, 0
+SE_asm01b.asm(46) : error A2008:syntax error : WriteConsoleA
+
+ 0000002C  6A 00			push 0
+ 0000002E  E8 00000000 E		call ExitProcess
+
+ 00000033				main ENDP
+				END main
+Microsoft (R) Macro Assembler (x64) Version 14.34.31933.0   11/14/23 17:12:33
+SE_asm01b.asm						     Symbols 2 - 1
+
+
+
+
+Segments:
+
+                N a m e                  Length   Align   Class
+
+CONST  . . . . . . . . . . . . .	 00000000 16	  'CONST'	 ReadOnly
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+GetStdHandle . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+SetConsoleTitleA . . . . . . . .	P 	 00000000 Length= 00000000 External
+WriteConsoleA  . . . . . . . . .	P 	 00000000 Length= 00000000 External
+getmax . . . . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+getmin . . . . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+main . . . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 00000033 Public
+  START  . . . . . . . . . . . .	L 	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+consolehandle  . . . . . . . . .	DWord	 00000049 _DATA	
+head . . . . . . . . . . . . . .	Byte	 00000028 _DATA	
+myDoubles  . . . . . . . . . . .	DWord	 00000000 _DATA	
+sum  . . . . . . . . . . . . . .	DWord	 00000045 _DATA	
+text . . . . . . . . . . . . . .	Byte	 00000032 _DATA	
+
+	   0 Warnings
+	   9 Errors

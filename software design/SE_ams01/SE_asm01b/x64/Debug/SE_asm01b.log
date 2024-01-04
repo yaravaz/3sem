@@ -1,0 +1,42 @@
+﻿Сборка начата 14.11.2023 17:12:33.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\КПО\19_лаба\SE_asm01b\SE_asm01b\SE_asm01b.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\лабы\КПО\19_лаба\SE_asm01b\x64\Debug\".
+         Создание каталога "x64\Debug\SE_asm01b.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_asm01b.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling SE_asm01b.asm...
+         cmd.exe /C "C:\Users\Ярослава\AppData\Local\Temp\tmp7ca929beec284ebdb2e93ec056357d12.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\SE_asm01b.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaSE_asm01b.asm
+     1>SE_asm01b.asm(1): error A2008: syntax error : .
+     1>SE_asm01b.asm(2): error A2008: syntax error : .
+     1>SE_asm01b.asm(12): error A2008: syntax error : .
+     1>SE_asm01b.asm(28): error A2008: syntax error : SetConsoleTitleA
+     1>SE_asm01b.asm(34): error A2008: syntax error : getmin
+     1>SE_asm01b.asm(38): error A2008: syntax error : getmax
+     1>SE_asm01b.asm(46): error A2008: syntax error : WriteConsoleA
+     1>SE_asm01b.asm(52): error A2008: syntax error : main
+     1>SE_asm01b.asm(52): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\SE_asm01b.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaSE_asm01b.asm" с кодом "1".
+     1>Сборка проекта "D:\лабы\КПО\19_лаба\SE_asm01b\SE_asm01b\SE_asm01b.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\лабы\КПО\19_лаба\SE_asm01b\SE_asm01b\SE_asm01b.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         SE_asm01b.asm(1): error A2008: syntax error : .
+         SE_asm01b.asm(2): error A2008: syntax error : .
+         SE_asm01b.asm(12): error A2008: syntax error : .
+         SE_asm01b.asm(28): error A2008: syntax error : SetConsoleTitleA
+         SE_asm01b.asm(34): error A2008: syntax error : getmin
+         SE_asm01b.asm(38): error A2008: syntax error : getmax
+         SE_asm01b.asm(46): error A2008: syntax error : WriteConsoleA
+         SE_asm01b.asm(52): error A2008: syntax error : main
+         SE_asm01b.asm(52): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\SE_asm01b.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaSE_asm01b.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 10
+
+Прошло времени 00:00:00.28
